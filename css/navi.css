@@ -1,0 +1,58 @@
+#mainNav-blue {
+    
+    background-color: #000033;
+    
+}
+
+#mainNav-blue .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: goldenrod;
+  border: 0;
+  
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav-blue .navbar-brand {
+  color: #fed136;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+#mainNav-blue .navbar-brand.active, #mainNav-blue .navbar-brand:active, #mainNav-blue .navbar-brand:focus, #mainNav-blue .navbar-brand:hover {
+  color: #fec503;
+}
+
+#mainNav-blue .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav-blue .navbar-nav .nav-item .nav-link.active, #mainNav-blue .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+#mainNav-blue.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #000033;
+}
+
+
+section .back{
+  text-align: center;
+  color: white;
+  background-image: url("../img/gold.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
