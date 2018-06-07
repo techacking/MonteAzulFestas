@@ -50,7 +50,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 
 }
@@ -461,7 +461,7 @@ header.masthead .intro-text .intro-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #DAA520;
+  border: 3px solid #DAA520;
   border-radius: 100%;
   background-color: #fed136;
 }

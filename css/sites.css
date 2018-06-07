@@ -93,7 +93,7 @@
 .rounded-circle-blu {
     
     border-radius: 50% !important;
-    border: 3px solid #DAA520 ;
+    border: 4px solid #DAA520 ;
     
 }
 
@@ -124,6 +124,17 @@
         
     }
     
+    .uper-2rm { 
+        
+        margin-top: 30px;
+        
+    }
+    
+    .cent {
+        
+        text-align: center;
+    }
+    
 
 }
 
@@ -132,6 +143,12 @@
     .uper { 
         
         margin-top: 93px;
+        
+    }
+    
+    .uper-2rm { 
+        
+        margin-top: 30px;
         
     }
     .t30 {
@@ -147,6 +164,11 @@
     .uper {
         
         margin-top:0px;
+        
+    }
+    .uper-2rm { 
+        
+        margin-top: 0px;
         
     }
     
