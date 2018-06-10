@@ -1,6 +1,11 @@
+.navbarn {
+    
+    background-color: #000033
+    
+}
+
 .footer {
     
-    ;
 }
 
 .titulos-8rm { 
@@ -61,6 +66,11 @@
     
 }
 
+.text-nav-bar {
+    
+    
+    
+}
 
 .container-car{
     width: 150px;
@@ -135,6 +145,21 @@
         text-align: center;
     }
     
+    .sobn {
+        
+            font-family: 'Tangerine', cursive;
+            font-size: 8rem;
+            color: #DAA520;
+        
+    }
+    .sobn2 {
+        
+            font-family: 'Tangerine', cursive;
+            font-size: 3rem;
+            color: #DAA520;
+        
+    }
+    
 
 }
 
@@ -151,9 +176,23 @@
         margin-top: 30px;
         
     }
-    .t30 {
-        
+    .t30 {      
          
+        
+    }
+    
+    .sobn {
+        
+            font-family: 'Tangerine', cursive;
+            font-size: 5rem;
+            color: #DAA520;
+        
+    }
+    .sobn2 {
+        
+            font-family: 'Tangerine', cursive;
+            font-size: 2rem;
+            color: #DAA520;
         
     }
     
@@ -172,5 +211,182 @@
         
     }
     
+    .sobn {
+        
+            font-family: 'Tangerine', cursive;
+            font-size: 10rem;
+            color: #DAA520;
+        
+    }
+    .sobn2 {
+        
+            font-family: 'Tangerine', cursive;
+            font-size: 4rem;
+            color: #DAA520;
+        
+    }
+    
 }
 
+/* CSS DEFAULT PAGINAS */
+
+#mainNav2 {
+  background-color: #000030;
+}
+
+#mainNav2 .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: goldenrod;
+  border: 0;
+  
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav2 .navbar-brand {
+  color: #fed136;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+#mainNav2 .navbar-brand.active, #mainNav2 .navbar-brand:active, #mainNav2 .navbar-brand:focus, #mainNav2 .navbar-brand:hover {
+  color: #fec503;
+}
+
+#mainNav2 .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav2 .navbar-nav .nav-item .nav-link.active, #mainNav2 .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+#mainNav2.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #000033;
+}
+
+@media (min-width: 992px) {
+  #mainNav2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: #000033
+    
+  }
+    
+  #mainNav2 .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav2 .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+      
+  }
+  #mainNav2.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #000033;
+  }
+  #mainNav2.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+    
+}
+
+/* CSS DEFAULT PAGINAS */
+
+
+
+
+/* GALERIA */
+
+
+.gal {
+    
+    margin-top: 90px;
+    
+}
+
+.min {
+
+    width:200px;
+    padding:10px;
+
+}
+
+.lbox {
+
+    visibility : hidden;
+    opacity: 0;
+
+}
+
+.lbox:target {
+
+    opacity:1;
+    visibility: visible;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background: rgba(10,10,10,.7);
+    position: fixed;
+
+}
+.box_img{
+
+    width:1000px;
+    margin: 150px auto;
+
+}
+
+.box_img img{
+
+    opacity: 0;
+
+}
+
+.lbox:target .box_img img{
+
+    opacity: 1;
+    transition: opacity .4s linear;
+
+}
+
+#prev{
+
+    left : 5% ;
+    top : 45% ;
+
+}
+
+#next{
+
+    right: 5% ;
+    top : 45% ;
+
+}
+
+#close{
+
+    left : 0% ;
+    right : 2% ;
+
+}
+
+
+/* GALERIA */
